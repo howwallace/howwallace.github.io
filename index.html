@@ -4,12 +4,15 @@
         <title>harper.owwallace</title>
         <meta name="format-detection" content="telephone=no">
         <style>
-            .borders            {padding-left: 40px; padding-right: 40px; margin-left: auto; margin-right: auto; max-width: 900px; margin-top:2em; margin-bottom:6em;}
-            .header             {text-align: center; padding-bottom: 1em;}
+            .borders            {padding-left: 40px; padding-right: 40px; margin-left: auto; margin-right: auto; max-width: 1000px; margin-top:2em; margin-bottom:6em;}
+            .header             {display: flex; padding-top: 2em;}
+            .header_text        {flex-grow: 1;}
+            .header_title       {padding-bottom: 0em;}
+            .header_subtitle    {padding-bottom: 1em;}
 
-            h2, h3, td, p, a    {font-family: Georgia, serif;}
+            h1, h3, td, p, a    {font-family: Georgia, serif;}
             a:link, a:visited, a:active, a:hover {color: orange;}
-            h2                  {padding-top: 2em; padding-bottom: 0.4em; margin: 0;}
+            h1                  {padding-bottom: 0em; margin: 0;}
             h3.table_header     {padding-top: 1.5em; padding-bottom: 0.4em; margin: 0;}
 
             table               {width: 100%; border-spacing: 0;}
@@ -22,16 +25,28 @@
     <body>
         <div class="borders">
             <div class="header">
-                <h2>HARPER OKLAHOMA WEEKS WALLACE</h2>
-                <a href="https://howwallace.github.io/cv.pdf" target="_blank" rel="noopener noreferrer">CV</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://scholar.google.com/citations?user=Nkduu3oAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://www.linkedin.com/in/harper-o-w-wallace-379028152/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="https://github.com/howwallace" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <div class="header_text">
+                    <h1 class="header_title">HARPER OKLAHOMA WEEKS WALLACE</h1>
+                    <p class="header_subtitle">Aspiring computational psychiatrist, with particular interest in mood and thought disorders</p>
+                    <table class="header_information">
+                        <tr><td class="left">
+                            <a href="https://howwallace.github.io/cv.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="https://scholar.google.com/citations?user=Nkduu3oAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="https://www.linkedin.com/in/harper-o-w-wallace-379028152/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="https://github.com/howwallace" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </td></tr>
+                        <tr><td class="left">harperowwallace [arobase] gmail [point] com</td></tr>
+                        <tr><td class="left">harper [arobase] owwallace [point] com</td></tr>
+                    </table>
+                       
+                </div>
+                <div class="header_img">
+                    <img src="WALLACE.Harper.jpg" alt="WALLACE,Harper" style="width:200px;">
+                </div>
             </div>
-            <p>Aspiring Computational Psychiatrist, with particular interest in mood and thought disorders</p>
             <h3 id="education" class="table_header">EDUCATION</h3>
             <table>
                 <tr>
@@ -40,7 +55,22 @@
                 </tr>
                 <tr>
                     <td class="left"><b>Denison University</b>, Granville, OH<br>B.S., Biochemistry</td>
-                    <td class="right">Aug 2017&ndash;May 2020</td>
+                    <td class="right">Aug 2017&ndash;May 2020<br><a href="https://howwallace.github.io/2020.05.29.DenisonTranscript.pdf" target="_blank" rel="noopener noreferrer">Transcript</a></td>
+                </tr>
+            </table>
+            <h3 id="research" class="table_header">RESEARCH EXPERIENCE</h3>
+            <table>
+                <!-- style="padding-bottom: 0em; line-height: 1;" -->
+                <tr>
+                    <td class="left"><b>Équipe biophysique et neurosciences théoriques</b>, École Normale Supérieure</td>
+                    <td class="right">Aug 2020&ndash;Present</td>
+                </tr>
+                <tr><td class="hang_left"><i>Ingénieur d'études</i> (2021&ndash;); <i>Stagiaire</i> (2020&ndash;21); Fulbright Scholar, France</td></tr>
+                <tr><td class="hang_left">Advisor: Rava A. da Silveira, Ph.D., Directeur de Recherche, Laboratoire de Physique</td></tr>
+                <tr><td class="hang_left"><i>Sujet</i>: Efficient-coding models of choice-behavioral context effects and preference intransitivity</td></tr>
+                <tr>
+                    <td class="left"><b>Reczek Laboratory</b>, Denison University<br>Undergraduate Research Assistant<br>Advisor: Joseph J. Reczek, Ph.D., Professor, Department of Chemistry & Biochemistry<br><a href="https://howwallace.github.io/2020.05.04.DenisonThesis.pdf" target="_blank" rel="noopener noreferrer">Thesis</a>: Controlled alignment of donor-acceptor columnar liquid crystals and interrogation of optical properties for applications in data storage and encryption</td>
+                    <td class="right">Jan 2018&ndash;May 2020</td>
                 </tr>
             </table>
             <h3 id="publications" class="table_header">PUBLICATIONS</h3>
@@ -61,7 +91,7 @@
             </table>
             <h3 id="presentations" class="table_header">PRESENTATIONS</h3>
             <table>
-                <tr><td class="hang_left"><b>Wallace HOW</b>, da Silveira RA. Efficient-coding models of choice-behavioral context effects. Oral presentation at the Institute of Molecular and Clinical Ophthalmology Basel; <b>2021</b> Oct 13; Basel, Switzerland</td></tr>
+                <tr><td class="hang_left"><b>Wallace HOW</b>, da Silveira RA. Efficient-coding models of choice-behavioral context effects. Oral presentation at the Institute of Molecular and Clinical Ophthalmology Basel; <b>2021</b> Oct 13; Basel, Switzerland.</td></tr>
                 <tr><td class="hang_left"><b>Wallace HOW</b>, da Silveira RA. An efficient-coding model of choice-behavioral context effects. (Virtual) <a href="https://howwallace.github.io/2021.07.15.IOBPoster.pdf" target="_blank" rel="noopener noreferrer">Poster session</a> presented at the Institute of Molecular and Clinical Ophthalmology Basel; <b>2021</b> Jul 15.</td></tr>
                 <tr><td class="hang_left"><b>Wallace HOW</b>, Fikri K, Weinstein JN, Weeks WB. Improving economic conditions matter for mortality among Medicare fee-for-service beneficiaries in the U.S.. (Virtual) <a href="https://howwallace.github.io/2021.07.14.iHEA.pdf" target="_blank" rel="noopener noreferrer">Oral presentation</a> at the iHEA World Congress on Health Economics; <b>2021</b> Jul 12&ndash;15.</td></tr>
                 <tr><td class="hang_left"><b>Wallace HOW</b>, Reczek JJ. Higher-order molecular control of self-assembling DACLCs. (Virtual) <a href="https://howwallace.github.io/2020.03.21.MolecularControl.pdf">Poster session</a> presented at Fundamental Research in Colloids, Surfaces & Nanomaterials Session; Division of Colloid and Surface Chemistry; American Chemical Society National Meeting; <b>2020</b> Mar 22&ndash;26.</td></tr>
@@ -81,12 +111,18 @@
                 <tr><td class="left">Prouty Century, NH, 6:09:32</td><td class="right">14 Jul 2018</td></tr>
                 <tr><td class="left">El Camino Portugués, Lisbon, Portugal&ndash;Santiago de Compostela, Spain</td><td class="right">1&ndash;15 Jun 2016</td></tr>
             </table>
-            <h3 id="documents" class="table_header">DOCUMENTS</h3>
+            <h3 id="documents" class="table_header" style="padding-bottom: 0.4em;">DOCUMENTS</h3>
+            <h3 id="documents_undergraduate" class="table_header" style="padding-top: 0.4em;">Undergraduate, Denison University</h3>
             <table>
-                <tr><td class="left"><a href="https://howwallace.github.io/2020.05.04.UndergraduateThesis.pdf" target="_blank" rel="noopener noreferrer">Undergraduate Thesis</a></td></tr>
-                <tr><td class="left"><a href="https://howwallace.github.io/2020.05.29.DenisonTranscript.pdf" target="_blank" rel="noopener noreferrer">Denison University Transcript</a></td></tr>
+                <tr><td class="left"><a href="https://howwallace.github.io/2020.05.29.DenisonTranscript.pdf" target="_blank" rel="noopener noreferrer">Transcript</a></td></tr>
+                <tr><td class="left"><a href="https://howwallace.github.io/2020.05.04.DenisonThesis.pdf" target="_blank" rel="noopener noreferrer">Thesis</a></td></tr>
             </table>
-            <p>(Please contact me at harper [arobase] owwallace [point] com to access password-protected files.)</p>
+            <h3 id="documents_master" class="table_header" style="padding-top: 0.4em;">Master, École Normale Supérieure</h3>
+            <table>
+                <tr><td class="left"><a href="https://howwallace.github.io/2020.05.29.DenisonTranscript.pdf" target="_blank" rel="noopener noreferrer">Transcript</a></td></tr>
+                <tr><td class="left"><a href="https://howwallace.github.io/2020.05.04.DenisonThesis.pdf" target="_blank" rel="noopener noreferrer">Thesis</a></td></tr>
+            </table>
+            <p>(Please email me for access to password-protected files.)</p>
         </div>
     </body>
 </html> 
