@@ -1,5 +1,5 @@
-#import "@local/templates:0.1.0": setup-paginate
-#show: setup-paginate
+#import "@local/templates:0.1.0": *
+#show: setup
 
 
 #set par(justify: false)
@@ -69,6 +69,8 @@ Thesis: Controlled alignment of donor-acceptor columnar liquid crystals and inte
 #sec[PRESENTATIONS]
 #[
   #set par(hanging-indent: 1cm)
+  *Wallace HOW*, Silveira RA. Asymptotically optimal decision aggregation with side information. Oral presentation at the Lürssen Foundation Future of Forecasting Workshop; *2026* Oct 1; Rijeka, Croatia.
+  
   *Wallace HOW*, Silveira RA. Robust decision aggregation in finite populations. Oral presentation at the Summer School on Cognitive Foundations of Decision-Making; *2025* Jul 1; Gent, Belgium.
   
   *Wallace HOW*, Silveira RA. Context effects arise from resource-optimal linear encoding. Oral presentation at the Basel Neuroscience Workshop; *2024* Sep 12; Basel, Switzerland.
@@ -83,6 +85,9 @@ Thesis: Controlled alignment of donor-acceptor columnar liquid crystals and inte
 
 #sec[ASSISTANT TEACHING]
 
+Neuroeconomic Foundations of Decision Making (graduate) #h(1fr) Fall 2026 \
+Instructors: Rava Azeredo da Silveira
+
 Neuroeconomic Foundations of Decision Making (graduate) #h(1fr) Fall 2025 \
 Instructors: Ernst Fehr, Rava Azeredo da Silveira
 
@@ -92,6 +97,7 @@ Instructor: Sonya McKay
 
 #sec[SUMMER SCHOOLS]
 
+Lürssen Foundation Future of Forecasting Workshop, Rijeka, Croatia #h(1fr) Oct 2026 \
 Cognitive Foundations of Decision-Making, Gent, Belgium #h(1fr) Jul 2025 \
 NeuroBridges, Cluny, France #h(1fr) Sep 2024 \
 Cognitive Foundations of Decision-Making, Rabat, Morocco #h(1fr) Jul 2024 \
