@@ -69,7 +69,7 @@ Thesis: Controlled alignment of donor-acceptor columnar liquid crystals and inte
 #sec[PRESENTATIONS]
 #[
   #set par(hanging-indent: 1cm)
-  *Wallace HOW*, Silveira RA. Asymptotically optimal decision aggregation with side information. Oral presentation at the Lürssen Foundation Future of Forecasting Workshop; *2026* Oct 1; Rijeka, Croatia.
+  *Wallace HOW*, Silveira RA. Asymptotically optimal decision aggregation with side information. Oral presentation at the Lürssen Foundation Principal Fellowship Programme Workshop; *2026* Oct 1; Rijeka, Croatia.
   
   *Wallace HOW*, Silveira RA. Robust decision aggregation in finite populations. Oral presentation at the Summer School on Cognitive Foundations of Decision-Making; *2025* Jul 1; Gent, Belgium.
   
@@ -95,13 +95,13 @@ Organic Chemistry II (undergraduate) #h(1fr) Fall 2019 \
 Instructor: Sonya McKay
 
 
-#sec[SUMMER SCHOOLS]
+#sec[WORKSHOPS & SUMMER SCHOOLS]
 
-Lürssen Foundation Future of Forecasting Workshop, Rijeka, Croatia #h(1fr) Oct 2026 \
-Cognitive Foundations of Decision-Making, Gent, Belgium #h(1fr) Jul 2025 \
-NeuroBridges, Cluny, France #h(1fr) Sep 2024 \
-Cognitive Foundations of Decision-Making, Rabat, Morocco #h(1fr) Jul 2024 \
-CNeuro (Theoretical and Computational Neuroscience), Basel, Switzerland #h(1fr) Aug 2022
+Lürssen Foundation Principal Fellowship Programme Workshop, Rijeka, Croatia #h(1fr) Oct 2026 \
+Cognitive Foundations of Decision-Making Summer School, Gent, Belgium #h(1fr) Jul 2025 \
+NeuroBridges Summer School, Cluny, France #h(1fr) Sep 2024 \
+Cognitive Foundations of Decision-Making Summer School, Rabat, Morocco #h(1fr) Jul 2024 \
+CNeuro (Theoretical & Computational Neuroscience) Summer School, Basel, Switzerland #h(1fr) Aug 2022
 
 
 #sec[SELECTED AWARDS & HONORS]
